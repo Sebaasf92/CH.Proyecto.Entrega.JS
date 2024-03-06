@@ -1,3 +1,3 @@
 # CH.Proyecto.Entrega.JS
-Primer entega de proyecto JavaScript.
+Proyecto JavaScript - Carrito de compras.
 Sebastián Fraguas
