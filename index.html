@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="body.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Sebastián Fraguas - Comisión 53910</h1>
-        <h2>Productos Disponibles</h2>
-        <ul id="productos-lista" class="productos-lista"></ul>
-        <button onclick="mostrarCarrito()" class="ver-carrito">Ver Carrito</button>
 
-        <h2>Carrito de Compras</h2>
-        <ul id="carrito-lista" class="carrito-lista"></ul>
+<div class="container">
+    <div class="header">
+        <h1>¡Bienvenido a nuestro Carrito de Compras!</h1>
     </div>
 
-    <script src="main.js"></script>
+    <div class="main-content">
+        <div class="product-list">
+            <h2>Productos Disponibles</h2>
+            <ul id="productos-lista" class="productos-lista"></ul>
+            <!-- Botón para actualizar el carrito -->
+            <button id="btnActualizarCarrito" class="btn-primary">Actualizar carrito</button>
+        </div>
+
+        <!-- Carrito de compras -->
+        <div class="carrito-container" id="carrito-container">
+            <div class="cart">
+                <h2>Carrito de Compras</h2>
+                <ul id="carrito-lista" class="carrito-lista"></ul>
+                <!-- Botón para comprar -->
+                <button id="btnComprar" class="btn-success">Comprar</button>
+                <!-- Botón para cancelar y restablecer el carrito -->
+                <button id="btnCancelar" class="btn-danger">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="icon-container">
+    <img src="carritoIcono2.png" alt="Ícono" class="icono">
+</div>
+
+<footer class="footer">
+  <div class="copy">
+      <p>Todos los derechos reservados&copy; 2024</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>
+
 </body>
 </html>
