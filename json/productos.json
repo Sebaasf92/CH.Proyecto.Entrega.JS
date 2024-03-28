@@ -1,0 +1,9 @@
+{
+  "productos": [
+    {"id": 1, "nombre": "Manzanas", "precio": 100, "stock": "ilimitado"},
+    {"id": 2, "nombre": "Plátanos", "precio": 200, "stock": "ilimitado"},
+    {"id": 3, "nombre": "Leche", "precio": 500, "stock": "ilimitado"},
+    {"id": 4, "nombre": "Pan", "precio": 250, "stock": "ilimitado"},
+    {"id": 5, "nombre": "Huevos", "precio": 600, "stock": "ilimitado"}
+  ]
+}
